@@ -1,0 +1,241 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+h1{
+  font-size: 2.1rem;
+  font-weight: lighter;
+  color: rgb(58, 58, 58);
+}
+h6{
+  font-size: medium;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: rgb(139, 139, 139);
+  margin-top: 2rem;
+}
+p{
+  font-size: 1.3rem;
+  color: rgb(85, 81, 81);
+}
+a{
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+header{
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+  padding: 3rem 0;
+  font-size: 1.1rem;
+}
+.logo{
+  width: 20%;
+  float: left;
+}
+.logo img{
+  height: 2rem;
+}
+nav{
+  width: 80%;
+  overflow: hidden;
+  float: right;
+  height: 36.67px;
+}
+nav ul{
+  list-style: none;
+  overflow: hidden;
+  float: right;
+}
+nav ul li{
+  float: left;
+  color: rgb(85, 81, 81);
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding-left: 140px;
+}
+
+.section_one div .image_one {
+  width: 100%;
+  padding: 5%;
+}
+
+.section_one div article {
+  padding: 2rem 11rem;
+}
+#comment{
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  width: 20%;
+  height: 1.4rem;
+  border: none;
+  border-bottom: 1.2px solid black;
+}
+.content_one{
+  overflow: hidden;
+  width: 100%;
+  margin: 4rem 0;
+}
+.details_one{
+  width: 48%;
+  float: left;
+  padding-left: 11rem;
+}
+.details_two{
+  width: 48%;
+  float: right;
+  padding-right: 11rem;
+}
+.content_one .img-1{
+  width: 100%;
+}
+.content_one .img-2{
+  width: 100%;
+}
+.content_two{
+  overflow: hidden;
+  width: 100%;
+  margin-top: 6rem;
+}
+.details_three{
+  width: 48%;
+  float: left;
+  padding-left: 11rem;
+}
+.details_four{
+  width: 48%;
+  float: right;
+  padding-right: 11rem;
+}
+.content_two .img-3{
+  width: 100%;
+}
+.content_two .img-4{
+  width: 100%;
+}
+.section_two{
+  text-align: center;
+  margin-top: 9rem;
+  padding-top: 7.5rem;
+  height: 20rem;
+  background-color: #F0F0F0;
+}
+.form {
+  width: 25%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+  padding: 10px 6%;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.section_two h1{
+  margin-bottom: 2rem;
+}
+
+.email{
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  color: rgb(85, 81, 81);
+}
+
+.section_three{
+  margin-top: 9rem;
+  overflow: hidden;
+}
+
+.content_three{
+  overflow: hidden;
+  width: 100%;
+  margin: 4rem 0;
+}
+.details_five{
+  width: 48%;
+  float: left;
+  padding-left: 11rem;
+}
+.details_six{
+  width: 48%;
+  float: right;
+  padding-right: 11rem;
+}
+.details_five .img-5{
+  width: 100%;
+}
+.details_six .img-6{
+  width: 100%;
+}
+.btn{
+  text-align: center;
+  font-weight: lighter;
+}
+.btn button{
+  font-size: 1.5rem;
+  margin: 11rem 0;
+  padding: 1.5rem 3rem;
+  background-color: #fff;
+  border: 1px solid black;
+}
+button {
+  border: 0;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 5px;
+  background-color: rgb(36, 4, 4);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+button:hover {
+  background-color: rgb(216, 102, 102);
+}
+button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.main-footer{
+  overflow: hidden;
+  background-color: #F0F0F0;
+  padding: 3rem 0;
+}
+.footer_left{
+  width: 80%;
+  padding-left: 11rem;
+  float: left;
+}
+.footer_right{
+  float: left;
+  width: 20%;
+}
+
+footer div h3{
+  display: inline-block;
+  font-weight: lighter;
+  padding-right: 2rem;
+}
+footer div .footer_h3{
+  font-weight: lighter;
+}
+.main-footer div ul{
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.main-footer div ul li {
+  display: inline-block;
+  padding-right: 1rem;
+}
+a:hover {
+  color: rgb(195, 107, 55);
+}
